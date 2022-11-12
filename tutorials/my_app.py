@@ -5,6 +5,13 @@ from game_library import Character, inventory
 from hydra.core.config_store import ConfigStore
 from hydra_zen import instantiate, make_config, make_custom_builds_fn
 from utils import get_pylogger, print_file, print_yaml
+"""my_app.py
+
+Command line usage examples:
+
+    python my_app.py hydra.job.chdir=True player=rakesh
+    python my_app.py hydra.job.chdir=True player=brinda +player/inventory=advanced
+"""
 
 builds = make_custom_builds_fn(populate_full_signature=True)
 
