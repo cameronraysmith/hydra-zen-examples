@@ -7,7 +7,7 @@ LICENSE = "MIT"
 INSTALL_REQUIRES = [
     "hydra-zen >= 0.3.0rc5",
     "pytorch_lightning >= 1.4.9",
-    "pytorch >= 1.7.1",
+    "torch >= 1.7.1",
     "torchvision >= 0.8.1",
     "torchmetrics >= 0.5.1",
 ]
