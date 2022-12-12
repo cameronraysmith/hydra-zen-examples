@@ -8,7 +8,7 @@ This example was tested using the following package versions:
 
   - hydra-zen==0.3.0
   - numpy==1.18.5
-  - pytorch==1.9.1
+  - torch==1.9.1
   - torchvision==0.8.1
   - pytorch-lightning==1.4.9
   - torchmetrics==0.5.1
